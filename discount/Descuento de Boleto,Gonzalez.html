@@ -1,0 +1,21 @@
+<HTML>
+    <TITLE>PAGO DE BOLETOS</TITLE>
+    <BODY BGCOLOR="AQUA">
+        <SCRIPT>
+            var cb
+            var tb
+            var td
+            var tp
+            var desc
+            cb=prompt("ingresa el precio por boleto: ",0);
+            tb=cb*3
+            desc=cb*.10
+            td=desc*3
+            tp=tb-td
+            document.write("el pago total con descuento de 3 boletos es: ",tp);
+        </SCRIPT>
+        <form method="post">
+            <input type="buttom"value="actualizar pagina"Onclick="window.location.reload()"/>
+        </form>             
+    </BODY>                                   
+</HTML>

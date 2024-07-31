@@ -1,0 +1,21 @@
+<HTML>
+<TITLE>Conversion a Dolares-Yael Gonzalez con JavaScript</TITLE>
+<HEAD>
+<BODY BGCOLOR="YELLOW">
+<SCRIPT>
+var CP
+var TC
+var D
+CP=prompt("introduce tu cantidad de pesos: ",0);
+TC=prompt("introduce el tipo de cambio: ",0);
+CP=parseInt(CP)
+TC=parseInt(TC)
+D=CP/TC
+document.write("Tus dolares son: ",D);
+</SCRIPT>
+<form method="post">
+<Imput type="button"value="Actualizar pagina" on click="windows.location.reload ( )"/>
+</form>
+</HEAD>
+</BODY>
+</HTML>

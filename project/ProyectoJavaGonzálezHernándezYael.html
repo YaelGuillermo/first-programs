@@ -1,0 +1,49 @@
+<HTML>
+    <TITLE>Proyecto Java González Yael</TITLE>
+        <HEAD>
+        <BODY BGCOLOR="YELLOW">
+            <SCRIPT>
+            
+                var a
+                var b
+                var c
+                var prom
+                var n
+                var ap
+                var am
+                var gg
+                var nol
+                
+                n=prompt("introduce tu nombre: ","");
+                ap=prompt("introduce tu apellido paterno: ","");
+                am=prompt("introduce tu apellido materno: ","");
+                gg=prompt("introduce tu grado y grupo: ",0);
+                nol=prompt("introduce tu número de lista: ",0);
+                a=prompt("introduce la calificación 1: ",0);
+                b=prompt("introduce la calificación 2: ",0);
+                c=prompt("introduce la calificación 3: ",0);
+                
+                a=parseInt(a)
+                b=parseInt(b)
+                c=parseInt(c)
+                prom=parseInt(prom)
+                
+                prom=(a+b+c)/3
+                
+                if (prom>=7)
+                {
+                    alert("el promedio es aprobatorio");
+                }
+                else
+                {
+                    alert("el promedio es reprobatorio");
+                }
+                document.write("tu promedio es: ", prom);
+                
+            </SCRIPT>
+            </HEAD>
+        </BODY>
+        <form method="post">
+            <input type="buttom"value="actualizar pagina"Onclick="window.location.reload()"/>
+        </form>  
+</HTML>
